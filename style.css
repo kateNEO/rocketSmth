@@ -1,0 +1,104 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.planet-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.space{
+    background-image: url("image/space.png");
+    width: 100%;
+    height: 100%;
+}
+.rocket{
+    position: absolute;
+    bottom: 215px;
+    left: 360px;
+    transform: rotate(30deg);
+    width: 190px;
+    height: 200px;
+}
+.planet{
+    position: fixed;
+    left: -80px;
+    bottom: -200px;
+    width: 800px;
+    height: 800px;
+    z-index: 2;
+}
+.control-panel{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 300px;
+    background: repeating-linear-gradient(45deg, yellow, yellow 15px, black 0, black 30px);
+}
+.control-panel__inner{
+    background-color: #37343d;
+    width: 100%;
+    height: 100%;
+}
+.password-string{
+    width: 160px;
+    height: 25px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background-color: #37343d;
+    border: 1px solid yellow;
+    color: dimgray;
+}
+.password-button{
+    background-color: yellow;
+    margin-left: 5px;
+    height: 25px;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.check-buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.range{
+    display: flex;
+    -webkit-transform: rotate(-90deg);
+    height: 7px;
+    width: 90px;
+}
+.levers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.launch-button{
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 215px;
+    border-radius: 100%;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+.launch-button-unlock{
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 215px;
+    border-radius: 100%;
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+}
